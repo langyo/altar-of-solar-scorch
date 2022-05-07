@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Apache-2.0"
+[[mods]]
+modId="altarofsolarscorch.langyo.corgames.com"
+version="${file.jarVersion}"
+displayName="Corona: Altar of Solar Scorch"
+logoFile="logo.png"
+credits="corgames.com"
+authors="Corona Development Team - langyo"
+description='''
+日冕模组是《命令与征服：红色警戒3》的一款游戏模组。该模组《浴日神坛》为日冕模组的部分游戏内容复刻。
+'''
+[[dependencies.altarofsolarscorch.langyo.corgames.com]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.altarofsolarscorch.langyo.corgames.com]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
